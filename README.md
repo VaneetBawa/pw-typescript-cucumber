@@ -2,7 +2,7 @@
 
 ## Pre-requisites
 
-1. Clone the LambdaTest-Playwright repository on your system.
+1. Clone the pw-typescript-cucumber repository on your system.
 
 2. Install the npm dependencies.
 
