@@ -1,0 +1,23 @@
+{
+  "name": "pw-typescript-cucumber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  "test": "cucumber-js --require-module ts-node/register --require features/**/*.ts --format summary"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^10.8.0",
+    "@playwright/test": "^1.46.0",
+    "@types/node": "^22.1.0",
+    "cucumber": "^6.0.7",
+    "dotenv": "^16.4.5",
+    "playwright": "^1.46.0",
+    "ts-node": "^10.9.2",
+    "assert": "^2.0.0",
+    "typescript": "^5.5.4"
+  }
+}
